@@ -1,0 +1,13 @@
+.main{
+    height: 600px;
+    background: linear-gradient(45deg,orange 30%,grey 30%,green);
+    background-color:red;
+    background-position: 300px;
+    background:url('https://png.pngtree.com/element_pic/00/16/07/115783931601b5c.jpg')linear-gradient(rgba (60,20,40)) ,url('icofinder_website_-_female_user_3440833.png');
+    background-size: 500px,200px;
+    background-position: 100px,center;
+}
+input:focus + label::before{
+    display: none;
+}
+
